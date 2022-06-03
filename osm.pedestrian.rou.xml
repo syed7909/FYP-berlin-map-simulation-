@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-18 01:18:14 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.net.xml"/>
+        <additional-files value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm_stops.add.xml,C:\Users\hp\Sumo\2022-04-18-01-17-59\osm_pt.rou.xml"/>
+        <route-files value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.pedestrian.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.pedestrian.rou.xml"/>
+        <alternatives-output value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.pedestrian.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="ped_pedestrian" vClass="pedestrian"/>
+    <person id="ped0" type="ped_pedestrian" depart="0.00">
+        <walk edges="803471189 442389818#3 803471190#0 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 -153698394#3 -153698394#0"/>
+    </person>
+    <person id="ped1" type="ped_pedestrian" depart="17.29">
+        <walk edges="169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#3"/>
+    </person>
+    <person id="ped2" type="ped_pedestrian" depart="34.58">
+        <walk edges="882389488 882389485 881245043#2 882389483 881245044"/>
+    </person>
+    <person id="ped3" type="ped_pedestrian" depart="51.88">
+        <walk edges="915958602#1 915958605#2 373292157#3 342968607#1 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.1" depart="491.00"/> <!-- U Museumsinsel -->
+        <walk edges="487045187 -4611693#0"/>
+    </person>
+    <person id="ped4" type="ped_pedestrian" depart="69.17">
+        <walk edges="317859982#0 373292148#2 882389496#5 915958610 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.1" depart="491.00"/> <!-- U Museumsinsel -->
+        <walk edges="4610525#1 4610525#0 -168937986#1"/>
+    </person>
+    <person id="ped5" type="ped_pedestrian" depart="86.46">
+        <walk edges="104786912#2 32786909 442389818#7 803471187 169195795#5 169195795#6 38211708#1"/>
+    </person>
+    <person id="ped6" type="ped_pedestrian" depart="103.75">
+        <walk edges="-153698394#3 340498982#0 340498982#2 340498982#3 698625568#0 698625568#1 1037153016 1037153017"/>
+    </person>
+    <person id="ped7" type="ped_pedestrian" depart="121.04">
+        <walk edges="881245039 915958586 882389496#1 882389496#0 340498988#0 882389494 169195795#8 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 -168937986#1 4610525#0"/>
+    </person>
+    <person id="ped8" type="ped_pedestrian" depart="138.34">
+        <walk edges="104786912#2 32786909 442389818#1 442389818#2 442389818#3 803471190#0 340498982#8 688445662#3 688445662#2 688445661"/>
+    </person>
+    <person id="ped9" type="ped_pedestrian" depart="155.63">
+        <walk edges="883691541#1 883691541#2 883691541#3 883691541#4 881245039 915958586 882389496#1 882389496#0 -169999355#2 -111833185#1"/>
+    </person>
+    <person id="ped10" type="ped_pedestrian" depart="172.92">
+        <walk edges="883691541#0 883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#3 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 881527239#0 881527239#9 881527239#8"/>
+    </person>
+    <person id="ped11" type="ped_pedestrian" depart="190.21">
+        <walk edges="171494871#4 171494871#5 171423002#14 38211708#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 1037130735#4 1037130735#5 1037130735#6"/>
+    </person>
+    <person id="ped12" type="ped_pedestrian" depart="207.50">
+        <walk edges="915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 171423002#11 171423002#12 915958587#1 915958587#2 171494871#4 171494871#3"/>
+    </person>
+    <person id="ped14" type="ped_pedestrian" depart="242.09">
+        <walk edges="915958587#4 171423002#14 38211708#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 -28251222#1 688445665#0"/>
+    </person>
+    <person id="ped15" type="ped_pedestrian" depart="259.38">
+        <walk edges="883691541#0 883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#4 915958610 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="882389489 881245043#0 881245043#1 881245043#2 881245043#3 882389486"/>
+    </person>
+    <person id="ped16" type="ped_pedestrian" depart="276.67">
+        <walk edges="442389818#7 803471187 169195795#5 169195795#6 38211708#1 171423002#14 171494871#5 915958587#2 915958621#2"/>
+    </person>
+    <person id="ped17" type="ped_pedestrian" depart="293.96">
+        <walk edges="205728152#3 1037153018#0 1037153016 698625568#1 1037130735#2 1037130735#3 340498982#7 340498982#8 354528932#0 4611707 4611693#0"/>
+    </person>
+    <person id="ped18" type="ped_pedestrian" depart="311.25">
+        <walk edges="915958585 882389496#3 171423002#0 171423002#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 803471187 442389818#7 442389818#1 699041686"/>
+    </person>
+    <person id="ped19" type="ped_pedestrian" depart="328.55">
+        <walk edges="915958597#1 881527239#7" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="461526152#0 66071373#1"/>
+    </person>
+    <person id="ped20" type="ped_pedestrian" depart="345.84">
+        <walk edges="881611350 882389480 882389499#2 882389499#3 882389499#4 915958595 915958620#1 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 -66071373#2 -243854725#2"/>
+    </person>
+    <person id="ped21" type="ped_pedestrian" depart="363.13">
+        <walk edges="111833185#0 111833185#1 169999355#0 340498988#0 882389494 171423002#10"/>
+    </person>
+    <person id="ped22" type="ped_pedestrian" depart="380.42">
+        <walk edges="-4610524#0 -4610524#1 169195795#0 169195795#1 169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="100:0" intended="pt_bus_100:0.1" depart="674.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 188386313#2 153698380#0 111833186#0"/>
+    </person>
+    <person id="ped23" type="ped_pedestrian" depart="397.71">
+        <walk edges="-589906055#1 66071373#1 882389494 340498988#0 169999355#0"/>
+    </person>
+    <person id="ped24" type="ped_pedestrian" depart="415.01">
+        <walk edges="803471188#0 169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="300:0" intended="pt_bus_300:0.0" depart="513.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 -194069450#1 194069450#0"/>
+    </person>
+    <person id="ped25" type="ped_pedestrian" depart="432.30">
+        <walk edges="195089283 555247158" busStop="8170769020"/> <!-- U Unter den Linden -->
+        <walk edges="194069449#0 194069449#1 1037153019#1"/>
+    </person>
+    <person id="ped26" type="ped_pedestrian" depart="449.59">
+        <walk edges="169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="300:0" intended="pt_bus_300:0.0" depart="513.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#1 915958611#1 915958615#2"/><!-- person loading and uloading on bus stops-->
+    </person>
+    <person id="ped27" type="ped_pedestrian" depart="466.88">
+        <walk edges="803471190#1 169195795#0 169195795#1 340498982#4 698625568#0"/>
+    </person>
+    <person id="ped30" type="ped_pedestrian" depart="518.76">
+        <walk edges="915958622#2 171494871#3 171494871#4 171494871#5 171423002#14 38211708#1 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 803471190#0 442389818#3 803471189"/>
+    </person>
+    <person id="ped31" type="ped_pedestrian" depart="536.05">
+        <walk edges="4611693#1 4611693#0 305153173" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.2" depart="783.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="171423002#5 881527239#2"/>
+    </person>
+    <person id="ped32" type="ped_pedestrian" depart="553.34">
+        <walk edges="915958587#2 915958587#1 171423002#12 171423002#11 1037130999 915958610 882389496#5"/>
+    </person>
+    <person id="ped33" type="ped_pedestrian" depart="570.63">
+        <walk edges="111833185#1 169999355#0 340498988#0 882389494 169195795#8 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 -168937986#1"/>
+    </person>
+    <person id="ped34" type="ped_pedestrian" depart="587.93">
+        <walk edges="171423002#5 915958599#3 881527239#0 881527239#9 171423002#9 171423002#10 169195795#8 169195795#6 169195795#5"/>
+    </person>
+    <person id="ped35" type="ped_pedestrian" depart="605.22">
+        <walk edges="1037153019#1 1037130735#0 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="881527239#7 915958597#1 881527239#3 881527239#2 171423002#5 915958616"/>
+    </person>
+    <person id="ped36" type="ped_pedestrian" depart="622.51">
+        <walk edges="915958601#0 881527239#0 915958599#3 171423002#5"/>
+    </person>
+    <person id="ped37" type="ped_pedestrian" depart="639.80">
+        <walk edges="881245041 915958616 171423002#4 171423002#3 171423002#2 342968607#1 24913267#1"/>
+    </person>
+    <person id="ped38" type="ped_pedestrian" depart="657.09">
+        <walk edges="915958611#1 171423002#0 882389496#3 882389496#4 915958610 1037130999 340498982#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 340498982#7"/>
+    </person>
+    <person id="ped39" type="ped_pedestrian" depart="674.38">
+        <walk edges="169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0"/>
+    </person>
+    <person id="ped40" type="ped_pedestrian" depart="691.68">
+        <walk edges="461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 169195795#1"/>
+    </person>
+    <person id="ped42" type="ped_pedestrian" depart="726.26">
+        <walk edges="24913267#3 24913267#1 373292157#3 373292157#2 373292157#1 373292157#0 188386313#2 188386313#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#2"/>
+    </person>
+    <person id="ped43" type="ped_pedestrian" depart="743.55">
+        <walk edges="973075794 -194069449#0 -194069450#1 188386313#1 437140526"/>
+    </person>
+    <person id="ped44" type="ped_pedestrian" depart="760.84">
+        <walk edges="-4611693#3 -4611693#0 305153173" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.3" depart="1083.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#3 882389496#4 915958610 -194069450#1 194069449#0 194069449#1 -243854725#2"/>
+    </person>
+    <person id="ped45" type="ped_pedestrian" depart="778.14">
+        <walk edges="-66071379#0 688445665#1 688445662#0 688445661 688445662#2 688445662#3 340498982#8 803471190#0 442389818#3 442389818#2 442389818#1 32786909 104786912#3 104786912#0 765170630"/>
+    </person>
+    <person id="ped46" type="ped_pedestrian" depart="795.43">
+        <walk edges="882389499#3 882389499#2 882389499#1 881245042 882389498 915958617 915958620#3 171423002#3 915958599#0" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958611#3 171423002#0 882389496#3 882389496#4 882389496#5 373292148#2 317859982#0"/>
+    </person>
+    <person id="ped47" type="ped_pedestrian" depart="812.72">
+        <walk edges="-284514068 555247158" busStop="8170769020"/> <!-- U Unter den Linden -->
+        <walk edges="194069450#0 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.3" depart="1091.00"/> <!-- U Museumsinsel -->
+        <walk edges="4610525#1 751602168 803471190#0 442389818#3 803471189 217531415"/>
+    </person>
+    <person id="ped48" type="ped_pedestrian" depart="830.01">
+        <walk edges="945425791 1037130735#6 4610524#1 169195795#0 217531416 442389818#5"/>
+    </person>
+    <person id="ped49" type="ped_pedestrian" depart="847.30">
+        <walk edges="915958621#2 915958587#1 171423002#12 171423002#11 171423002#10 171423002#9 881527239#8 881527239#7 915958597#1"/>
+    </person>
+    <person id="ped50" type="ped_pedestrian" depart="864.60">
+        <walk edges="-111833186#1 -111833186#0 -153698380#2 373292148#3 882389496#5 915958610 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="882389489 881245043#0 881245043#1 881245043#2 882389483"/>
+    </person>
+    <person id="ped51" type="ped_pedestrian" depart="881.89">
+        <walk edges="881527239#1 881527239#0 881527239#9 171423002#9 171423002#10 169195795#8 169195795#6 169195795#5 803471187 442389818#7"/>
+    </person>
+    <person id="ped52" type="ped_pedestrian" depart="899.18">
+        <walk edges="169195795#4 169195795#1 169195795#0 803471190#0 442389818#3 803471189"/>
+    </person>
+    <person id="ped53" type="ped_pedestrian" depart="916.47">
+        <walk edges="-66071379#1 688445665#1 688445662#0 688445661 688445662#2 688445662#3 340498982#8 803471190#0 442389818#3 442389818#2 442389818#1 32786909"/>
+    </person>
+    <person id="ped54" type="ped_pedestrian" depart="933.76">
+        <walk edges="340498982#4 340498982#3 340498982#2 340498982#0 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 171423002#7 915958619"/>
+    </person>
+    <person id="ped55" type="ped_pedestrian" depart="951.06">
+        <walk edges="915958599#3 881527239#0 881527239#9 171423002#9 171423002#10 169195795#8 169195795#6 169195795#5 169195795#4 169195795#1"/>
+    </person>
+    <person id="ped57" type="ped_pedestrian" depart="985.64">
+        <walk edges="915958611#1 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="171423002#5 915958599#2"/>
+    </person>
+    <person id="ped58" type="ped_pedestrian" depart="1002.93">
+        <walk edges="171423002#13 915958587#3 171494871#5 171423002#14 38211708#1 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 803471190#0 442389818#3 803471189"/>
+    </person>
+    <person id="ped59" type="ped_pedestrian" depart="1020.22">
+        <walk edges="688445665#1 688445662#0 688445661 688445662#2 1037130735#5"/>
+    </person>
+    <person id="ped60" type="ped_pedestrian" depart="1037.51">
+        <walk edges="882389496#1 882389496#2 882389496#3 882389496#4 915958610 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.1" depart="1229.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 1037136888 1037130735#3 1037130735#4 1037130735#5 4610524#0"/>
+    </person>
+    <person id="ped61" type="ped_pedestrian" depart="1054.81">
+        <walk edges="882389498 915958617 915958620#3 171423002#3 171423002#2 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.1" depart="1229.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 169195795#1 217531416 442389818#5"/>
+    </person>
+    <person id="ped62" type="ped_pedestrian" depart="1072.10">
+        <walk edges="-111833185#0 -111833185#1 169999355#0 171423002#2 171423002#3 171423002#4 171423002#5 171423002#6 171423002#7 171423002#8"/>
+    </person>
+    <person id="ped64" type="ped_pedestrian" depart="1106.68">
+        <walk edges="915958601#0 881527239#0 915958599#0" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958611#3 171423002#0 882389496#2 915958586"/>
+    </person>
+    <person id="ped65" type="ped_pedestrian" depart="1123.97">
+        <walk edges="171423002#3 171423002#2 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.1" depart="1229.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 1037136888 1037130735#3 -28251222#1 -28251222#0"/>
+    </person>
+    <person id="ped66" type="ped_pedestrian" depart="1141.27">
+        <walk edges="915958601#0 881527239#0 915958599#3 171423002#5 171423002#4 915958620#3 915958617"/>
+    </person>
+    <person id="ped67" type="ped_pedestrian" depart="1158.56">
+        <walk edges="-4611693#0 305153173" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.4" depart="1383.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#3 882389496#4 882389496#5 373292148#3"/>
+    </person>
+    <person id="ped68" type="ped_pedestrian" depart="1175.85">
+        <walk edges="-292429062#1 292429062#1 292429062#0 153698380#0 188386313#2 188386313#1 882389496#0"/>
+    </person>
+    <person id="ped70" type="ped_pedestrian" depart="1210.43">
+        <walk edges="354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <walk edges="4610525#1"/>
+    </person>
+    <person id="ped71" type="ped_pedestrian" depart="1227.73">
+        <walk edges="169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="100:0" intended="pt_bus_100:0.2" depart="1274.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#2 171423002#3 171423002#4 171423002#5 915958599#2"/>
+    </person>
+    <person id="ped72" type="ped_pedestrian" depart="1245.02">
+        <walk edges="317859982#0 188386313#2 188386313#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#3 104786912#0"/>
+    </person>
+    <person id="ped73" type="ped_pedestrian" depart="1262.31">
+        <walk edges="4610524#0 1037130735#5 1037130735#4 1037130735#3 1037130735#2 698625568#0 340498982#3 340498982#2 340498982#0 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 171423002#7 915958619 882389486"/>
+    </person>
+    <person id="ped74" type="ped_pedestrian" depart="1279.60">
+        <walk edges="1037153017 1037153016 698625568#1 698625568#0 340498982#3 340498982#2 340498982#0 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="881527239#7 915958597#1 881527239#3 881527239#2 171423002#5 171423002#4"/>
+    </person>
+    <person id="ped75" type="ped_pedestrian" depart="1296.89">
+        <walk edges="945425791 1037130735#6 4610524#1 354528932#0 354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.5" depart="1683.00"/> <!-- U Unter den Linden -->
+        <walk edges="915958586 881245039"/>
+    </person>
+    <person id="ped76" type="ped_pedestrian" depart="1314.19">
+        <walk edges="339201236 104786912#3 32786909 442389818#1"/>
+    </person>
+    <person id="ped78" type="ped_pedestrian" depart="1348.77">
+        <walk edges="171494871#3 171494871#4 171494871#5 171423002#14 38211708#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 1037130735#4 688445662#2 688445661"/>
+    </person>
+    <person id="ped79" type="ped_pedestrian" depart="1366.06">
+        <walk edges="111833185#1 169999355#0 340498988#0 882389494 169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#2"/>
+    </person>
+    <person id="ped80" type="ped_pedestrian" depart="1383.35">
+        <walk edges="-292429062#1 292429062#1 292429062#0 153698380#0 373292148#3 882389496#5 915958610 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.2" depart="1829.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 1037136888 1037130735#3 340498982#7 340498982#8 354528932#0 4611707 4611693#0 780327564"/>
+    </person>
+    <person id="ped81" type="ped_pedestrian" depart="1400.64">
+        <walk edges="111833185#1 437140526 188386313#2 373292157#0 373292157#1 373292157#2 915958605#3"/>
+    </person>
+    <person id="ped82" type="ped_pedestrian" depart="1417.94">
+        <walk edges="915958597#0 881527239#3 915958599#1 171423002#2 188386313#1 188386313#2 153698380#0 292429062#0 292429062#1 -292429062#1"/>
+    </person>
+    <person id="ped83" type="ped_pedestrian" depart="1435.23">
+        <walk edges="114667396#0 169195795#8 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 915958620#0 915958618 881245044 882389483 881245043#2"/>
+    </person>
+    <person id="ped85" type="ped_pedestrian" depart="1469.81">
+        <walk edges="915958615#2 915958611#1 171423002#0 882389496#3 882389496#4 915958610 -194069450#1" busStop="8170769020"/> <!-- U Unter den Linden -->
+        <walk edges="555247158"/>
+    </person>
+    <person id="ped86" type="ped_pedestrian" depart="1487.10">
+        <walk edges="354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.5" depart="1683.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="171423002#5 915958616 881245041 882389499#0"/>
+    </person>
+    <person id="ped87" type="ped_pedestrian" depart="1504.40">
+        <walk edges="883691541#0 883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#4 915958610 1037138981#0 1037138981#1"/>
+    </person>
+    <person id="ped89" type="ped_pedestrian" depart="1538.98">
+        <walk edges="317859982#1 373292157#2 373292157#3 342968607#1"/>
+    </person>
+    <person id="ped90" type="ped_pedestrian" depart="1556.27">
+        <walk edges="882389485 881245043#2 881245043#3"/>
+    </person>
+    <person id="ped91" type="ped_pedestrian" depart="1573.56">
+        <walk edges="915958622#1 171494871#4 915958587#2 915958587#1 171423002#12 171423002#11 -66071373#2 -194069449#1 -194069449#0" busStop="8170769020"/> <!-- U Unter den Linden -->
+        <walk edges="555247158 -555247157"/>
+    </person>
+    <person id="ped92" type="ped_pedestrian" depart="1590.86">
+        <walk edges="24913304#1 188386313#2 188386313#1 340498988#0 882389494 171423002#11 171423002#12 915958587#1 915958587#2 171494871#4"/>
+    </person>
+    <person id="ped93" type="ped_pedestrian" depart="1608.15">
+        <walk edges="915958597#1 881527239#7 881527239#8 171423002#9 171423002#10 153698394#1 153698394#0"/>
+    </person>
+    <person id="ped94" type="ped_pedestrian" depart="1625.44">
+        <walk edges="1037138981#1 1037138981#0 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.2" depart="1829.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 340498982#3 340498982#2"/>
+    </person>
+    <person id="ped95" type="ped_pedestrian" depart="1642.73">
+        <walk edges="317859982#0 188386313#2 188386313#1 169999355#0"/>
+    </person>
+    <person id="ped96" type="ped_pedestrian" depart="1660.02">
+        <walk edges="153698394#0 4412868 -169999355#2 171423002#1 915958611#1 915958615#1 915958612#1"/>
+    </person>
+    <person id="ped97" type="ped_pedestrian" depart="1677.32">
+        <walk edges="340498982#0 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="881527239#7 915958597#1"/>
+    </person>
+    <person id="ped98" type="ped_pedestrian" depart="1694.61">
+        <walk edges="4610525#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.6" depart="1983.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#3 882389496#4 915958610 342968607#1 -24913267#2"/>
+    </person>
+    <person id="ped99" type="ped_pedestrian" depart="1711.90">
+        <walk edges="973075794 194069449#1 -66071373#2 171423002#11 171423002#12 915958587#0"/>
+    </person>
+    <person id="ped100" type="ped_pedestrian" depart="1729.19">
+        <walk edges="915958621#1 171423002#11 882389494 340498988#0 171423002#1 915958611#3 915958615#3 915958612#2"/>
+    </person>
+    <person id="ped102" type="ped_pedestrian" depart="1763.78">
+        <walk edges="373292148#3 188386313#2 188386313#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#3 104786912#0"/>
+    </person>
+    <person id="ped103" type="ped_pedestrian" depart="1781.07">
+        <walk edges="24913304#1 188386313#2 188386313#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 169195795#4 1037136888 1037130735#3 -28251222#1"/>
+    </person>
+    <person id="ped104" type="ped_pedestrian" depart="1798.36">
+        <walk edges="205728152#3 1037153018#0 1037153016 698625568#1 698625568#0 340498982#3 340498982#2 38211708#0 171423002#14 171494871#5 171494871#4 915958622#1"/>
+    </person>
+    <person id="ped105" type="ped_pedestrian" depart="1815.65">
+        <walk edges="169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="100:0" intended="pt_bus_100:0.3" depart="1874.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#2 171423002#3 171423002#4 915958616 881245041 882389499#0"/>
+    </person>
+    <person id="ped106" type="ped_pedestrian" depart="1832.94">
+        <walk edges="340498982#4 340498982#3 340498982#2 340498982#0 1037130999 915958610 882389496#5 373292148#2 317859982#0"/>
+    </person>
+    <person id="ped107" type="ped_pedestrian" depart="1850.23">
+        <walk edges="915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 340498982#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 1037130735#4 1037130735#5 1037130735#6 945425791"/>
+    </person>
+    <person id="ped108" type="ped_pedestrian" depart="1867.53">
+        <walk edges="4611693#1 4611693#0 305153173" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.7" depart="2283.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 171423002#3 915958620#3 915958617 882389498 881245042 882389499#1 882389499#2 882389499#3 882389482"/>
+    </person>
+    <person id="ped109" type="ped_pedestrian" depart="1884.82">
+        <walk edges="1037130735#6 1037130735#5 1037130735#4 1037130735#3 1037130735#2 698625568#0 340498982#3 340498982#2 38211708#0 171423002#14 171494871#5 915958587#3 171423002#13"/>
+    </person>
+    <person id="ped110" type="ped_pedestrian" depart="1902.11">
+        <walk edges="915958621#1 171423002#11 66071373#1"/>
+    </person>
+    <person id="ped111" type="ped_pedestrian" depart="1919.40">
+        <walk edges="4610524#1 354528932#0 354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.7" depart="2283.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#3 915958585 881245040 883691541#3 883691541#2 882389491"/>
+    </person>
+    <person id="ped112" type="ped_pedestrian" depart="1936.69">
+        <walk edges="-28251222#0 688445665#0 688445665#1 66071379#1"/>
+    </person>
+    <person id="ped113" type="ped_pedestrian" depart="1953.99">
+        <walk edges="38211708#0 171423002#14 915958587#4 915958587#5"/>
+    </person>
+    <person id="ped114" type="ped_pedestrian" depart="1971.28">
+        <walk edges="1037130999 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 915958620#0 915958620#1"/>
+    </person>
+    <person id="ped115" type="ped_pedestrian" depart="1988.57">
+        <walk edges="-4610524#0 -4610524#1 354528932#0 354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.7" depart="2283.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#3 882389496#4 915958610 1037138981#0"/>
+    </person>
+    <person id="ped116" type="ped_pedestrian" depart="2005.86">
+        <walk edges="688445662#1 688445661 688445662#2 1037130735#4 1037130735#3 1037130735#2 698625568#0 340498982#3 340498982#2 340498982#0 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 915958620#0 915958618 881245044"/>
+    </person>
+    <person id="ped118" type="ped_pedestrian" depart="2040.45">
+        <walk edges="915958602#1 915958605#4 373292157#0 153698380#0"/>
+    </person>
+    <person id="ped120" type="ped_pedestrian" depart="2075.03">
+        <walk edges="305153173 -4611707 354528932#0 340498982#8 688445662#3 688445662#2 688445661 688445662#0 688445665#1 66071379#1"/>
+    </person>
+    <person id="ped121" type="ped_pedestrian" depart="2092.32">
+        <walk edges="442389818#3 803471190#0 169195795#0 169195795#1 169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="300:0" intended="pt_bus_300:0.3" depart="2313.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#1 915958611#1 915958615#1"/>
+    </person>
+    <person id="ped122" type="ped_pedestrian" depart="2109.61">
+        <walk edges="1037153018#0 1037153016 698625568#1 698625568#0 340498982#3 340498982#2 340498982#0 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 915958620#0 915958620#1 915958595 882389499#4 882389499#3 882389481"/>
+    </person>
+    <person id="ped123" type="ped_pedestrian" depart="2126.91">
+        <walk edges="114667396#0 169195795#8 882389494 340498988#0 188386313#1 188386313#2 373292157#0 373292157#1 373292157#2 373292157#3 24913267#1"/>
+    </person>
+    <person id="ped124" type="ped_pedestrian" depart="2144.20">
+        <walk edges="881245043#3 882389483 881245044 915958618 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 171423002#11 171423002#12 915958587#1 915958587#2 171494871#5 171423002#14"/>
+    </person>
+    <person id="ped125" type="ped_pedestrian" depart="2161.49">
+        <walk edges="171423002#6 171423002#5" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958611#3 171423002#0 882389496#3 915958585 881245040 883691541#3 883691541#2 883691541#1 883691541#0 882389492"/>
+    </person>
+    <person id="ped126" type="ped_pedestrian" depart="2178.78">
+        <walk edges="-305153173 4611707 354528932#0 340498982#8 340498982#7"/>
+    </person>
+    <person id="ped127" type="ped_pedestrian" depart="2196.07">
+        <walk edges="973075794 194069449#1 -66071373#2 340498982#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 1037130735#4 1037130735#5 1037130735#6 945425791"/>
+    </person>
+    <person id="ped128" type="ped_pedestrian" depart="2213.36">
+        <walk edges="-305153173 4611707 354528932#0 803471190#0 442389818#3 442389818#2 442389818#1 32786909 104786912#3 104786912#0"/>
+    </person>
+    <person id="ped129" type="ped_pedestrian" depart="2230.66">
+        <walk edges="169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="300:0" intended="pt_bus_300:0.3" depart="2313.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#1 915958611#1 915958615#1"/>
+    </person>
+    <person id="ped130" type="ped_pedestrian" depart="2247.95">
+        <walk edges="915958601#1 915958601#0"/>
+    </person>
+    <person id="ped131" type="ped_pedestrian" depart="2265.24">
+        <walk edges="195089283 -24913267#2 342968607#1 1037130999"/>
+    </person>
+    <person id="ped132" type="ped_pedestrian" depart="2282.53">
+        <walk edges="915958586 882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 881527239#0 881527239#9"/>
+    </person>
+    <person id="ped133" type="ped_pedestrian" depart="2299.82">
+        <walk edges="698625568#0 340498982#3 340498982#2 38211708#0 171423002#14 171494871#5 171494871#4 171494871#3 915958622#2"/>
+    </person>
+    <person id="ped134" type="ped_pedestrian" depart="2317.12">
+        <walk edges="881245040 915958585 882389496#4 882389496#5 373292148#3 -153698380#2 -111833186#0"/>
+    </person>
+    <person id="ped135" type="ped_pedestrian" depart="2334.41">
+        <walk edges="883691541#3 881245040 915958585 882389496#4 915958610 1037130999 171423002#11 171423002#12 915958587#1 915958621#2 171423002#13"/>
+    </person>
+    <person id="ped136" type="ped_pedestrian" depart="2351.70">
+        <walk edges="881245043#0 882389489" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="881527239#7 915958597#1 881527239#3 881527239#2 171423002#5" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958611#3 915958615#3"/>
+    </person>
+    <person id="ped137" type="ped_pedestrian" depart="2368.99">
+        <walk edges="1037130735#0 -66071373#2 -194069449#1 973075794 -973075794"/>
+    </person>
+    <person id="ped138" type="ped_pedestrian" depart="2386.28">
+        <walk edges="-66071373#2 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.8" depart="2591.00"/> <!-- U Museumsinsel -->
+        <walk edges="305153173 4611693#0"/>
+    </person>
+    <person id="ped139" type="ped_pedestrian" depart="2403.58">
+        <walk edges="169195795#6 169195795#5 169195795#4 28251222#1 688445665#0"/>
+    </person>
+    <person id="ped140" type="ped_pedestrian" depart="2420.87">
+        <walk edges="882389482 882389499#4 915958595 915958620#1 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 340498982#0 340498982#2 340498982#3 698625568#0 698625568#1 1037153016 1037153018#0"/>
+    </person>
+    <person id="ped141" type="ped_pedestrian" depart="2438.16">
+        <walk edges="803471187 169195795#4"/>
+    </person>
+    <person id="ped142" type="ped_pedestrian" depart="2455.45">
+        <walk edges="373292148#3 373292157#3 915958605#3"/>
+    </person>
+    <person id="ped143" type="ped_pedestrian" depart="2472.74">
+        <walk edges="915958587#3 171494871#5 171423002#14 38211708#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 340498982#7 340498982#8 354528932#0 -4611707"/>
+    </person>
+    <person id="ped144" type="ped_pedestrian" depart="2490.04">
+        <walk edges="317859982#1 373292157#1 373292157#0 188386313#2 188386313#1 340498988#0 882389494 169195795#8"/>
+    </person>
+    <person id="ped145" type="ped_pedestrian" depart="2507.33">
+        <walk edges="-111833185#1 -169999355#2 171423002#1 171423002#0 882389496#3"/>
+    </person>
+    <person id="ped146" type="ped_pedestrian" depart="2524.62">
+        <walk edges="803471188#0 169195795#1"/>
+    </person>
+    <person id="ped147" type="ped_pedestrian" depart="2541.91">
+        <walk edges="882389489" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.8" depart="2591.00"/> <!-- U Museumsinsel -->
+        <walk edges="305153173 4611693#0"/>
+    </person>
+    <person id="ped148" type="ped_pedestrian" depart="2559.20">
+        <walk edges="317859982#2 373292157#1 373292157#0 -153698380#2 -111833186#0"/>
+    </person>
+    <person id="ped149" type="ped_pedestrian" depart="2576.50">
+        <walk edges="-4412868 169999355#0 171423002#2 915958599#1 881527239#3 915958597#1 881527239#7 915958601#2"/>
+    </person>
+    <person id="ped150" type="ped_pedestrian" depart="2593.79">
+        <walk edges="915958605#3 373292157#3 342968607#1 461526152#0" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <ride busStop="7974955393" lines="U5:0" intended="pt_subway_U5:0.9" depart="2891.00"/> <!-- U Museumsinsel -->
+        <walk edges="4610525#1 4610525#0"/>
+    </person>
+    <person id="ped151" type="ped_pedestrian" depart="2611.08">
+        <walk edges="915958587#0 915958587#5 915958587#4 171423002#14 38211708#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 -28251222#1 688445665#0 688445665#1 66071379#0"/>
+    </person>
+    <person id="ped154" type="ped_pedestrian" depart="2662.95">
+        <walk edges="882389499#4 882389499#3 882389499#2 882389499#1 882389499#0 881245041 915958616 171423002#5 881527239#2 881527239#3 915958597#1"/>
+    </person>
+    <person id="ped156" type="ped_pedestrian" depart="2697.54">
+        <walk edges="153698394#0 -153698394#0 -153698394#3 66071373#1 589906055#1 -589906055#1"/>
+    </person>
+    <person id="ped157" type="ped_pedestrian" depart="2714.83">
+        <walk edges="882389498 881245042 882389499#1 882389499#2 882389499#3 882389499#4 915958595 915958620#1 915958620#0 171423002#8 915958601#1 915958601#2"/>
+    </person>
+    <person id="ped160" type="ped_pedestrian" depart="2766.71">
+        <walk edges="915958599#0 881527239#0 881527239#9 171423002#9 171423002#10 171423002#11 171423002#12 915958587#0 915958621#3"/>
+    </person>
+    <person id="ped161" type="ped_pedestrian" depart="2784.00">
+        <walk edges="883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#3 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 881527239#0 915958601#0 915958601#1"/>
+    </person>
+    <person id="ped162" type="ped_pedestrian" depart="2801.29">
+        <walk edges="-153698394#0 153698394#1 171423002#10 171423002#9 881527239#8 915958601#1 171423002#8 915958620#0 915958618 881245044 882389483 881245043#2 882389485 882389488"/>
+    </person>
+    <person id="ped164" type="ped_pedestrian" depart="2835.87">
+        <walk edges="883691540 883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#3 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0"/>
+    </person>
+    <person id="ped165" type="ped_pedestrian" depart="2853.17">
+        <walk edges="883691541#1 883691541#2 883691541#3 881245040 915958585 882389496#4 915958610 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.4" depart="3029.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 169195795#4"/>
+    </person>
+    <person id="ped166" type="ped_pedestrian" depart="2870.46">
+        <walk edges="882389499#1 881245042 882389498 915958617 915958620#3 171423002#3 171423002#2 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.4" depart="3029.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 1037136888 1037130735#3 -28251222#1 688445665#0 688445665#1 -66071379#0"/>
+    </person>
+    <person id="ped167" type="ped_pedestrian" depart="2887.75">
+        <walk edges="915958599#2 881527239#3 915958597#0"/>
+    </person>
+    <person id="ped168" type="ped_pedestrian" depart="2905.04">
+        <walk edges="104786912#3 32786909 442389818#7 803471187 169195795#5 169195795#6 169195795#8 882389494 340498988#0 882389496#0 882389496#1 915958586 881245039 883691541#4 883691541#3"/>
+    </person>
+    <person id="ped169" type="ped_pedestrian" depart="2922.33">
+        <walk edges="340498982#8 340498982#7 169195795#4" busStop="271296293"/> <!-- Staatsoper -->
+        <ride busStop="272408975" lines="100:0" intended="pt_bus_100:0.5" depart="3074.00"/> <!-- U Unter den Linden -->
+        <walk edges="188386313#1 171423002#2"/>
+    </person>
+    <person id="ped170" type="ped_pedestrian" depart="2939.63">
+        <walk edges="882389499#4 882389499#3 882389499#2 882389499#1 881245042 882389498 915958617 915958620#3 171423002#3 171423002#2 169999355#0 111833185#1 111833185#0"/>
+    </person>
+    <person id="ped171" type="ped_pedestrian" depart="2956.92">
+        <walk edges="-153698394#0 -4412868 -169999355#2 1037138981#0 1037138982"/>
+    </person>
+    <person id="ped172" type="ped_pedestrian" depart="2974.21">
+        <walk edges="171423002#9 881527239#9 881527239#0 915958599#0"/>
+    </person>
+    <person id="ped173" type="ped_pedestrian" depart="2991.50">
+        <walk edges="915958620#3 171423002#3 171423002#2 169999355#0"/>
+    </person>
+    <person id="ped174" type="ped_pedestrian" depart="3008.79">
+        <walk edges="803471189 442389818#3 803471190#0 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 373292157#0 373292157#1 373292157#2 373292157#3 24913267#1 24913267#3"/>
+    </person>
+    <person id="ped175" type="ped_pedestrian" depart="3026.08">
+        <walk edges="915958622#0 171494871#7 915958587#4 171423002#14 38211708#1 169195795#6 169195795#5 803471187 442389818#7"/>
+    </person>
+    <person id="ped176" type="ped_pedestrian" depart="3043.38">
+        <walk edges="915958615#3 915958611#3 171423002#0 882389496#3 882389496#4 915958610 -194069450#1 194069449#0 973075794 -973075794"/>
+    </person>
+    <person id="ped178" type="ped_pedestrian" depart="3077.96">
+        <walk edges="915958620#2 915958620#1 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 169195795#8 169195795#6 169195795#5 169195795#4"/>
+    </person>
+    <person id="ped179" type="ped_pedestrian" depart="3095.25">
+        <walk edges="-66071379#0 688445665#1 688445662#0 688445661 688445662#2 688445662#3 340498982#8 803471190#0 442389818#3 442389818#2 442389818#1 32786909"/>
+    </person>
+    <person id="ped180" type="ped_pedestrian" depart="3112.54">
+        <walk edges="882389485 881245043#1 881245043#0 882389489" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="881527239#7 915958597#1 881527239#3 881527239#2 171423002#5"/>
+    </person>
+    <person id="ped181" type="ped_pedestrian" depart="3129.84">
+        <walk edges="688445665#1 688445662#0 688445661 688445662#2 1037130735#4 169195795#4 169195795#5 169195795#6 169195795#8 -153698394#3 4412868"/>
+    </person>
+    <person id="ped182" type="ped_pedestrian" depart="3147.13">
+        <walk edges="217531416 169195795#1 340498982#4 340498982#3 340498982#2 340498982#0 66071373#1"/>
+    </person>
+    <person id="ped183" type="ped_pedestrian" depart="3164.42">
+        <walk edges="168937986#1 354528932#0 354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.11" depart="3483.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 171423002#3 915958620#3 915958617 882389498 881245042 882389499#1 882389499#2 882389499#3 882389482 881611351"/>
+    </person>
+    <person id="ped184" type="ped_pedestrian" depart="3181.71">
+        <walk edges="-111833185#0 437140526 188386313#1 171423002#1 915958611#3 915958615#3 915958612#2"/>
+    </person>
+    <person id="ped185" type="ped_pedestrian" depart="3199.00">
+        <walk edges="4610524#0 4610524#1 354528932#0 354528932#1" busStop="7974928190"/> <!-- U Museumsinsel -->
+        <ride busStop="8090274121" lines="U5:1" intended="pt_subway_U5:1.11" depart="3483.00"/> <!-- U Unter den Linden -->
+        <walk edges="882389496#2 171423002#0 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="915958599#0 171423002#3 915958620#3 915958617 882389498 881245042 882389499#1 882389499#2 882389499#3 882389482"/>
+    </person>
+    <person id="ped186" type="ped_pedestrian" depart="3216.30">
+        <walk edges="882389489 881245043#0 881245043#1 881245043#2"/>
+    </person>
+    <person id="ped187" type="ped_pedestrian" depart="3233.59">
+        <walk edges="194069449#1 -194069449#0 -194069450#1 915958610 882389496#5 373292148#3 153698380#0 292429062#0 292429062#1 -292429062#1"/>
+    </person>
+    <person id="ped188" type="ped_pedestrian" depart="3250.88">
+        <walk edges="881245043#0 881245043#1 881245043#2 882389483 881245044 915958618 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 171423002#11 171423002#12 915958587#0 915958587#5 171494871#7 171494871#1"/>
+    </person>
+    <person id="ped189" type="ped_pedestrian" depart="3268.17">
+        <walk edges="171423002#5 915958599#3 881527239#0 881527239#9 171423002#9 171423002#10 171423002#11 171423002#12 915958587#0 915958587#5 915958587#4"/>
+    </person>
+    <person id="ped190" type="ped_pedestrian" depart="3285.46">
+        <walk edges="882389482 882389499#4 915958595 915958620#1 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 171423002#11 171423002#12 915958587#1 915958587#2 171494871#5 171423002#14"/>
+    </person>
+    <person id="ped191" type="ped_pedestrian" depart="3302.76">
+        <walk edges="171423002#3 171423002#2 1037130999 340498982#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 28251222#1"/>
+    </person>
+    <person id="ped192" type="ped_pedestrian" depart="3320.05">
+        <walk edges="24913304#1 188386313#2 188386313#1 340498988#0 882389494 171423002#11 171423002#12"/>
+    </person>
+    <person id="ped194" type="ped_pedestrian" depart="3354.63">
+        <walk edges="915958615#3 915958611#3" busStop="8170794617"/> <!-- U Unter den Linden -->
+        <walk edges="171423002#5 881527239#2 881527239#3 915958597#1 881527239#7" busStop="8087330616"/> <!-- U Unter den Linden -->
+        <walk edges="882389489 881245043#0 881245043#1 881245043#2 882389483 881245044"/>
+    </person>
+    <person id="ped195" type="ped_pedestrian" depart="3371.92">
+        <walk edges="915958605#3 373292157#3 342968607#1 461526152#0" busStop="3869306771"/> <!-- U Unter den Linden -->
+        <ride busStop="3870475228" lines="300:1" intended="pt_bus_300:1.5" depart="3629.00"/> <!-- Staatsoper -->
+        <walk edges="340498982#4 698625568#0 698625568#1"/>
+    </person>
+    <person id="ped196" type="ped_pedestrian" depart="3389.22">
+        <walk edges="171423002#14 38211708#1 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 751602168 4610525#1"/>
+    </person>
+    <person id="ped197" type="ped_pedestrian" depart="3406.51">
+        <walk edges="-111833185#0 -111833185#1 169999355#0 340498988#0 882389494 171423002#10"/>
+    </person>
+    <person id="ped198" type="ped_pedestrian" depart="3423.80">
+        <walk edges="317859982#2 373292157#2 373292157#3 342968607#1 1037130999 340498982#0 340498982#2 340498982#3 698625568#0 1037130735#2 1037130735#3 -28251222#1 688445665#0 688445665#1 66071379#0"/>
+    </person>
+    <person id="ped199" type="ped_pedestrian" depart="3441.09">
+        <walk edges="881245040 915958585 882389496#3 171423002#0 171423002#1 340498988#0"/>
+    </person>
+    <person id="ped200" type="ped_pedestrian" depart="3458.38">
+        <walk edges="339201238 104786912#2 104786912#3 104786912#0"/>
+    </person>
+    <person id="ped201" type="ped_pedestrian" depart="3475.67">
+        <walk edges="354528932#1 354528932#0 340498982#8 340498982#7 1037130735#3 1037130735#2 698625568#0 340498982#3 340498982#2 340498982#0 1037130999 342968607#1 373292157#3 915958605#2"/>
+    </person>
+    <person id="ped203" type="ped_pedestrian" depart="3510.26">
+        <walk edges="-4611693#0 4611707 354528932#0 803471190#0 442389818#3 442389818#2 442389818#1"/>
+    </person>
+    <person id="ped204" type="ped_pedestrian" depart="3527.55">
+        <walk edges="803471187 169195795#5 169195795#6 38211708#1 171423002#14 915958587#4 171494871#7 171494871#1 171494871#2"/>
+    </person>
+    <person id="ped205" type="ped_pedestrian" depart="3544.84">
+        <walk edges="883691541#4 883691541#3 883691541#2 883691541#1 883691541#0 882389492"/>
+    </person>
+    <person id="ped206" type="ped_pedestrian" depart="3562.13">
+        <walk edges="881245043#3 882389483 881245044 915958618 915958620#0 171423002#8 915958601#1 881527239#8 171423002#9 171423002#10 169195795#8 169195795#6 169195795#5 803471187 442389818#7 32786909 104786912#3"/>
+    </person>
+    <person id="ped207" type="ped_pedestrian" depart="3579.43">
+        <walk edges="1037153017 1037153016 698625568#1 698625568#0 340498982#3 340498982#2 340498982#0 -153698394#3 -153698394#0"/>
+    </person>
+    <person id="ped208" type="ped_pedestrian" depart="3596.72">
+        <walk edges="153698380#0 188386313#2 188386313#1 340498988#0 882389494 169195795#8 169195795#6 169195795#5 169195795#4 169195795#1 169195795#0 354528932#0 354528932#1"/>
+    </person>
+</routes>

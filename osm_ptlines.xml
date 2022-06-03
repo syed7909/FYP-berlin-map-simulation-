@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-18 01:18:11 by Eclipse SUMO netconvert Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <formats>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="1900690" name="Bus 100: S+U Alexanderplatz =&gt; S+U Zoologischer Garten" line="100" type="bus" vClass="bus" color="149,39,110" completeness="0.18">
+        <route edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913304#1"/>
+        <busStop id="271296293" name="Staatsoper"/>
+        <busStop id="272408975" name="U Unter den Linden"/>
+        <busStop id="271373068" name="S+U Brandenburger Tor"/>
+    </ptLine>
+    <ptLine id="1900691" name="Bus 100: S+U Zoologischer Garten =&gt; S+U Alexanderplatz" line="100" type="bus" vClass="bus" color="149,39,110" completeness="0.11">
+        <route edges="236092221#0 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 354528932#0 354528932#1"/>
+        <busStop id="3869306771" name="U Unter den Linden"/>
+        <busStop id="3870475228" name="Staatsoper"/>
+    </ptLine>
+    <ptLine id="2202086" name="Bus N6: U Alt-Tegel =&gt; U Alt-Mariendorf" line="N6" type="bus" vClass="bus" nightService="only" completeness="0.02">
+        <route edges="11483007#0 -169999355#2 -194069450#1"/>
+        <busStop id="-9023382186" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="2211984" name="Bus N5: Hellersdorf, Riesaer Straße =&gt; S+U Hauptbahnhof" line="N5" type="bus" vClass="bus" period="1800" nightService="only" completeness="0.06">
+        <route edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913304#1"/>
+        <busStop id="271296293" name="Staatsoper"/>
+        <busStop id="272408975" name="U Unter den Linden"/>
+        <busStop id="271373068" name="S+U Brandenburger Tor"/>
+    </ptLine>
+    <ptLine id="2211985" name="Bus N5: S+U Hauptbahnhof =&gt; Hellersdorf, Riesaer Straße" line="N5" type="bus" vClass="bus" period="1800" nightService="only" completeness="0.04">
+        <route edges="236092221#0 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 354528932#0 354528932#1"/>
+        <busStop id="3869306771" name="U Unter den Linden"/>
+        <busStop id="3870475228" name="Staatsoper"/>
+    </ptLine>
+    <ptLine id="2227743" name="U5: U Hauptbahnhof =&gt; U Hönow" line="U5" type="subway" vClass="rail_urban" period="300" color="125,83,61" completeness="0.08">
+        <route edges="942849696 942849695"/>
+        <busStop id="8087330616" name="U Unter den Linden"/>
+        <busStop id="7974955393" name="U Museumsinsel"/>
+    </ptLine>
+    <ptLine id="2227744" name="U5: U Hönow =&gt; U Hauptbahnhof" line="U5" type="subway" vClass="rail_urban" period="300" color="125,83,61" completeness="0.08">
+        <route edges="942849697 71326270"/>
+        <busStop id="7974928190" name="U Museumsinsel"/>
+        <busStop id="8090274121" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="2679163" name="U6: U Alt-Mariendorf =&gt; U Alt-Tegel" line="U6" type="subway" vClass="rail_urban" period="300" color="128,112,183" completeness="0.03">
+        <route edges="295250353#0 295250353#1 295250353#2"/>
+        <busStop id="8170794617" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="2679164" name="U6: U Alt-Tegel =&gt; U Alt-Mariendorf" line="U6" type="subway" vClass="rail_urban" period="300" color="128,112,183" completeness="0.03">
+        <route edges="335043673#0 335043673#1 335043673#2"/>
+        <busStop id="8170769020" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="3353027" name="Bus N6: U Alt-Mariendorf =&gt; U Alt-Tegel" line="N6" type="bus" vClass="bus" nightService="only" completeness="0.02">
+        <route edges="194069450#0 169999355#0 -11483007#2"/>
+        <busStop id="9023382187" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="6622626" name="Bus 147: U Leopoldplatz =&gt; Mitte, Fischerinsel" line="147" type="bus" vClass="bus" completeness="0.05">
+        <route edges="11483007#0 -169999355#2 -194069450#1"/>
+        <busStop id="-9023382186" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="6622627" name="Bus 147: Mitte, Fischerinsel =&gt; U Leopoldplatz" line="147" type="bus" vClass="bus" completeness="0.05">
+        <route edges="194069450#0 169999355#0 -11483007#2"/>
+        <busStop id="9023382187" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="9884615" name="Bus 300: S+U Warschauer Straße =&gt; Tiergarten, Philharmonie Süd" line="300" type="bus" vClass="bus" completeness="0.10">
+        <route edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913267#1 24913267#3"/>
+        <busStop id="271296293" name="Staatsoper"/>
+        <busStop id="272408975" name="U Unter den Linden"/>
+    </ptLine>
+    <ptLine id="9884616" name="Bus 300: Tiergarten, Philharmonie Süd =&gt; S+U Warschauer Straße" line="300" type="bus" vClass="bus" completeness="0.09">
+        <route edges="-24913267#3 -24913267#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 354528932#0 354528932#1"/>
+        <busStop id="3869306771" name="U Unter den Linden"/>
+        <busStop id="3870475228" name="Staatsoper"/>
+    </ptLine>
+</ptLines>

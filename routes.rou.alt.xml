@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-18 01:18:13 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.net.xml"/>
+        <route-files value="C:\Users\hp\Sumo\2022-04-18-01-17-59\osm.bus.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+    <vehicle id="bus1" type="bus_bus" depart="63.87" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="86.66" probability="1.00000000" edges="28251222#0 28251222#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 292429062#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus2" type="bus_bus" depart="127.74" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="86.84" probability="1.00000000" edges="-292429062#1 -292429062#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 169195795#0 169195795#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus3" type="bus_bus" depart="191.62" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="96.38" probability="1.00000000" edges="-111833186#1 -111833186#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 -28251222#1 -28251222#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus4" type="bus_bus" depart="255.49" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="109.23" probability="1.00000000" edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 169999355#0 -111833185#1 -111833185#0 111833185#0 111833185#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus5" type="bus_bus" depart="319.36" departLane="best">
+        <routeDistribution last="0">
+            <route cost="72.84" probability="1.00000000" edges="340498982#8 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913267#1 24913267#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus6" type="bus_bus" depart="383.23" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="84.92" probability="1.00000000" edges="-292429062#1 -292429062#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus7" type="bus_bus" depart="447.11" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="86.03" probability="1.00000000" edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913304#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus8" type="bus_bus" depart="510.98" departLane="best">
+        <routeDistribution last="0">
+            <route cost="74.78" probability="1.00000000" edges="169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 292429062#0 292429062#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus9" type="bus_bus" depart="574.85" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="101.02" probability="1.00000000" edges="-292429062#1 -292429062#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1 474362272"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus10" type="bus_bus" depart="638.72" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="81.52" probability="1.00000000" edges="236092221#0 342968607#1 461526152#0 340498982#0 340498982#2 169195795#6 114667396#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus12" type="bus_bus" depart="766.47" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="83.07" probability="1.00000000" edges="111833185#0 111833185#1 -169999355#2 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 -28251222#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus13" type="bus_bus" depart="830.34" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="93.88" probability="1.00000000" edges="-168937986#1 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 169999355#0 -111833185#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus15" type="bus_bus" depart="958.08" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="84.74" probability="1.00000000" edges="11483007#0 -169999355#2 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1 474362272"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus17" type="bus_bus" depart="1085.83" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="107.79" probability="1.00000000" edges="-111833186#1 -111833186#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1 474362272"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus19" type="bus_bus" depart="1213.57" departLane="best">
+        <routeDistribution last="0">
+            <route cost="49.14" probability="1.00000000" edges="882389494 340498988#0 188386313#1 188386313#2 24913304#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus21" type="bus_bus" depart="1341.32" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="107.53" probability="1.00000000" edges="-168937986#1 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913304#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus23" type="bus_bus" depart="1469.06" departLane="best">
+        <routeDistribution last="0">
+            <route cost="90.58" probability="1.00000000" edges="111833185#1 -169999355#2 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 168937986#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus24" type="bus_bus" depart="1532.93" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="86.66" probability="1.00000000" edges="28251222#0 28251222#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 292429062#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus25" type="bus_bus" depart="1596.81" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="90.78" probability="1.00000000" edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 -153698380#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus27" type="bus_bus" depart="1724.55" departLane="best">
+        <routeDistribution last="0">
+            <route cost="98.66" probability="1.00000000" edges="169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 111833186#0 111833186#1 -111833186#1 -111833186#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus28" type="bus_bus" depart="1788.42" departLane="best">
+        <routeDistribution last="0">
+            <route cost="79.45" probability="1.00000000" edges="340498982#8 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913267#1 24913267#3 -24913267#3 -24913267#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus29" type="bus_bus" depart="1852.29" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="95.11" probability="1.00000000" edges="111833185#0 111833185#1 -169999355#2 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus31" type="bus_bus" depart="1980.04" departLane="best">
+        <routeDistribution last="0">
+            <route cost="74.78" probability="1.00000000" edges="169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 292429062#0 292429062#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus32" type="bus_bus" depart="2043.91" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="63.37" probability="1.00000000" edges="-24913267#3 -24913267#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus33" type="bus_bus" depart="2107.78" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="71.57" probability="1.00000000" edges="751602168 169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 24913267#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus34" type="bus_bus" depart="2171.66" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="82.65" probability="1.00000000" edges="-24913267#3 -24913267#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1 474362272"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus40" type="bus_bus" depart="2554.89" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="82.65" probability="1.00000000" edges="-24913267#3 -24913267#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0 66071379#1 474362272"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus41" type="bus_bus" depart="2618.76" departLane="best">
+        <routeDistribution last="0">
+            <route cost="70.05" probability="1.00000000" edges="342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1 -4610524#0 448810728 66071379#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus42" type="bus_bus" depart="2682.63" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="69.04" probability="1.00000000" edges="-111833186#1 -111833186#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus44" type="bus_bus" depart="2810.38" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="86.29" probability="1.00000000" edges="-292429062#1 -292429062#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 354528932#0 354528932#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus47" type="bus_bus" depart="3001.99" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="96.38" probability="1.00000000" edges="-111833186#1 -111833186#0 -153698380#2 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 -28251222#1 -28251222#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus48" type="bus_bus" depart="3065.87" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="81.52" probability="1.00000000" edges="236092221#0 342968607#1 461526152#0 340498982#0 340498982#2 169195795#6 114667396#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus50" type="bus_bus" depart="3193.61" departLane="best">
+        <routeDistribution last="0">
+            <route cost="80.86" probability="1.00000000" edges="169195795#0 169195795#1 169195795#4 169195795#5 169195795#6 169195795#8 882389494 340498988#0 188386313#1 188386313#2 153698380#0 292429062#0 292429062#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus51" type="bus_bus" depart="3257.48" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="78.50" probability="1.00000000" edges="111833185#0 111833185#1 -169999355#2 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 -4610524#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="bus55" type="bus_bus" depart="3512.97" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="94.88" probability="1.00000000" edges="236092221#0 342968607#1 461526152#0 340498982#0 340498982#2 340498982#3 340498982#4 340498982#7 340498982#8 168937986#1"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

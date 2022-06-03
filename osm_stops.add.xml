@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-04-18 01:18:11 by Eclipse SUMO netconvert Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <formats>
+        <osm.sidewalks value="true"/>
+    </formats>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-9023382186" name="U Unter den Linden" lane="-194069450#1_1" startPos="0.00" endPos="12.16" friendlyPos="true" lines="N6 147"/>
+    <busStop id="271296293" name="Staatsoper" lane="169195795#4_1" startPos="34.39" endPos="49.39" friendlyPos="true" lines="100 N5 300"/>
+    <busStop id="271373068" name="S+U Brandenburger Tor" lane="24913304#1_1" startPos="170.96" endPos="185.96" friendlyPos="true" lines="100 N5"/>
+    <busStop id="272408975" name="U Unter den Linden" lane="188386313#1_1" startPos="14.24" endPos="29.24" friendlyPos="true" lines="100 N5 300"/>
+    <busStop id="3869306771" name="U Unter den Linden" lane="461526152#0_1" startPos="0.00" endPos="8.74" friendlyPos="true" lines="100 N5 300"/>
+    <busStop id="3870475228" name="Staatsoper" lane="340498982#4_1" startPos="13.62" endPos="28.62" friendlyPos="true" lines="100 N5 300"/>
+    <busStop id="3980157313" name="Unter den Linden/Glinkastraße" lane="236092221#0_1" startPos="91.09" endPos="106.09" friendlyPos="true"/>
+    <busStop id="7974928190" name="U Museumsinsel" lane="942849697_0" startPos="13.31" endPos="213.31" friendlyPos="true" lines="U5">
+        <access lane="305153173_0" pos="5.89" length="50.62" friendlyPos="1"/>
+        <access lane="354528932#1_0" pos="38.86" length="20.68" friendlyPos="1"/>
+        <access lane="4610525#1_0" pos="0.20" length="47.35" friendlyPos="1"/>
+        <access lane="751602168_0" pos="0.00" length="45.71" friendlyPos="1"/>
+        <access lane="803471190#1_0" pos="110.34" length="49.68" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7974955393" name="U Museumsinsel" lane="942849695_0" startPos="1.87" endPos="201.87" friendlyPos="true" lines="U5">
+        <access lane="-305153173_0" pos="45.39" length="113.15" friendlyPos="1"/>
+        <access lane="305153173_0" pos="0.00" length="113.78" friendlyPos="1"/>
+        <access lane="354528932#1_0" pos="38.86" length="150.99" friendlyPos="1"/>
+        <access lane="4610525#1_0" pos="0.20" length="167.11" friendlyPos="1"/>
+        <access lane="487045187_0" pos="0.00" length="147.86" friendlyPos="1"/>
+    </busStop>
+    <busStop id="8087330616" name="U Unter den Linden" lane="942849696_0" startPos="224.32" endPos="424.32" friendlyPos="true" lines="U5">
+        <access lane="1037130999_0" pos="51.55" length="16.17" friendlyPos="1"/>
+        <access lane="461526152#0_0" pos="57.81" length="11.56" friendlyPos="1"/>
+        <access lane="881527239#7_0" pos="10.70" length="15.00" friendlyPos="1"/>
+        <access lane="882389487_0" pos="14.90" length="14.33" friendlyPos="1"/>
+        <access lane="882389489_0" pos="14.70" length="9.80" friendlyPos="1"/>
+    </busStop>
+    <busStop id="8090274121" name="U Unter den Linden" lane="71326270_0" startPos="382.35" endPos="582.35" friendlyPos="true" lines="U5">
+        <access lane="882389496#0_0" pos="0.20" length="3.36" friendlyPos="1"/>
+        <access lane="882389496#1_0" pos="0.20" length="2.98" friendlyPos="1"/>
+        <access lane="882389496#2_0" pos="0.00" length="1.41" friendlyPos="1"/>
+        <access lane="882389496#3_0" pos="0.00" length="2.89" friendlyPos="1"/>
+        <access lane="915958586_0" pos="0.00" length="2.65" friendlyPos="1"/>
+    </busStop>
+    <busStop id="8170769020" name="U Unter den Linden" lane="335043673#2_0" startPos="35.77" endPos="222.50" friendlyPos="true">
+        <access lane="-194069449#0_0" pos="82.99" length="19.39" friendlyPos="1"/>
+        <access lane="-194069450#1_0" pos="56.76" length="13.73" friendlyPos="1"/>
+        <access lane="194069449#0_0" pos="0.00" length="18.69" friendlyPos="1"/>
+        <access lane="194069450#0_0" pos="0.00" length="17.26" friendlyPos="1"/>
+        <access lane="555247158_0" pos="28.60" length="88.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="8170794617" name="U Unter den Linden" lane="295250353#0_0" startPos="44.23" endPos="174.91" friendlyPos="true">
+        <access lane="171423002#2_0" pos="0.00" length="20.52" friendlyPos="1"/>
+        <access lane="171423002#5_0" pos="0.50" length="17.91" friendlyPos="1"/>
+        <access lane="881527239#1_0" pos="0.00" length="19.06" friendlyPos="1"/>
+        <access lane="915958599#0_0" pos="5.61" length="11.61" friendlyPos="1"/>
+        <access lane="915958611#3_0" pos="9.36" length="13.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="9023382187" name="U Unter den Linden" lane="169999355#0_1" startPos="0.00" endPos="7.70" friendlyPos="true" lines="N6 147"/>
+</additional>

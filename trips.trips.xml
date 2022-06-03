@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2022-04-18 01:18:12.322454 by $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_12_0+0000-800cb422fa4
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_100:0" type="pt_bus" depart="15" departLane="best" from="751602168" to="24913304#1">
+        <stop busStop="271296293" duration="30"/>
+        <stop busStop="272408975" duration="30"/>
+        <stop busStop="271373068" duration="30"/>
+    </trip>
+    <trip id="1_bus_100:1" type="pt_bus" depart="15" departLane="best" from="236092221#0" to="354528932#1">
+        <stop busStop="3869306771" duration="30"/>
+        <stop busStop="3870475228" duration="30"/>
+    </trip>
+    <trip id="5_subway_U5:0" type="pt_subway" depart="131" departLane="best" from="942849696" to="942849695">
+        <stop busStop="8087330616" duration="30"/>
+        <stop busStop="7974955393" duration="30"/>
+    </trip>
+    <trip id="6_subway_U5:1" type="pt_subway" depart="133" departLane="best" from="942849697" to="71326270">
+        <stop busStop="7974928190" duration="30"/>
+        <stop busStop="8090274121" duration="30"/>
+    </trip>
+    <trip id="7_subway_U6:0" type="pt_subway" depart="165" departLane="best" from="295250353#0" to="295250353#2">
+        <stop busStop="8170794617" duration="30"/>
+    </trip>
+    <trip id="8_subway_U6:1" type="pt_subway" depart="253" departLane="best" from="335043673#0" to="335043673#2">
+        <stop busStop="8170769020" duration="30"/>
+    </trip>
+    <trip id="10_bus_147:0" type="pt_bus" depart="383" departLane="best" from="11483007#0" to="-194069450#1">
+        <stop busStop="-9023382186" duration="30"/>
+    </trip>
+    <trip id="11_bus_147:1" type="pt_bus" depart="406" departLane="best" from="194069450#0" to="-11483007#2">
+        <stop busStop="9023382187" duration="30"/>
+    </trip>
+    <trip id="12_bus_300:0" type="pt_bus" depart="441" departLane="best" from="751602168" to="24913267#3">
+        <stop busStop="271296293" duration="30"/>
+        <stop busStop="272408975" duration="30"/>
+    </trip>
+    <trip id="13_bus_300:1" type="pt_bus" depart="535" departLane="best" from="-24913267#3" to="354528932#1">
+        <stop busStop="3869306771" duration="30"/>
+        <stop busStop="3870475228" duration="30"/>
+    </trip>
+</routes>
